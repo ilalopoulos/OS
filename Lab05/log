@@ -1,0 +1,34 @@
+/home/ilalopoulos/OS/Lab05
+log
+-bash: cd: /path/to/directory: No such file or directory
+stat: cannot stat 'filename': No such file or directory
+  File: filename
+  Size: 0         	Blocks: 0          IO Block: 4096   regular empty file
+Device: 811h/2065d	Inode: 407764      Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1343/ilalopoulos)   Gid: ( 1345/ilalopoulos)
+Access: 2024-12-16 12:07:29.226940206 +0200
+Modify: 2024-12-16 12:07:29.226940206 +0200
+Change: 2024-12-16 12:07:29.226940206 +0200
+ Birth: -
+cp: cannot stat 'source.txt': No such file or directory
+mv: cannot stat 'oldname.txt': No such file or directory
+mv: cannot stat 'oldname.txt': No such file or directory
+rm: cannot remove 'file_to_delete.txt': No such file or directory
+rmdir: failed to remove 'empty_directory': No such file or directory
+rm: cannot remove 'directory_to_delete': No such file or directory
+cat: file.txt: No such file or directory
+./
+./empty_directory/
+./new_folder/
+./source.txt
+./filename
+./file.txt
+./newname.txt
+./
+./empty_directory/
+./new_folder/
+./source.txt
+./filename
+./file.txt
+./newname.txt
+./archive.tar
